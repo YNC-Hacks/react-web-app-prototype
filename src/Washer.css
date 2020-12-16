@@ -1,0 +1,53 @@
+.Washer {
+	display: flex;
+	margin: 1.5rem auto;
+	align-items: center;
+	font-weight: 700;
+	max-width: 600px;
+	border-radius: 20px;
+}
+
+@media (min-width: 700px) {
+	.Washer {
+		width: 45%;
+	}
+}
+
+.icon {
+	font-size: 5.5rem;
+	width: 35%;
+	display: flex;
+	justify-content: center;
+}
+
+.info h1 {
+	margin: 0;
+}
+
+.info p {
+	margin-top: 4px;
+}
+
+.Free {
+	background-color: #daf0fd;
+}
+
+.Free h1 {
+	color: #566984;
+}
+
+.Free p {
+	color: #597090;
+}
+
+.Busy {
+	background-color: #ffdcda;
+}
+
+.Busy h1 {
+	color: #7b5555;
+}
+
+.Busy p {
+	color: #8d6161;
+}

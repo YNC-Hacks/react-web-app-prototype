@@ -1,0 +1,19 @@
+.Navbar {
+	background-color: #7579e7;
+	padding: 1rem;
+	color: white;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	text-align: center;
+}
+
+.Navbar h1 {
+	margin: 0;
+	font-size: 2rem;
+}
+
+.Navbar .ync {
+	color: #eb9d45;
+}
