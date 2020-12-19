@@ -60,7 +60,7 @@ function MenuBar(props) {
 				onClick={handleClick}
 				className={classes.btn}
 			>
-				{props.rc.name}
+				{props.rc}
 			</Button>
 			<Menu
 				id="simple-menu"
